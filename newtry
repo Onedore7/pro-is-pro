@@ -19,7 +19,7 @@ def encrypted_password(my_string):
 
 
 
-#EXTM3U x-tvg-url="https://bit.ly/pondan-epg, https://raw.githubusercontent.com/azimabid00/epg/main/unifi_epg.xml, https://azimabid00.github.io/epg/astro_epg.xml, https://tvxray-cdn2.eu-central-amazonaws.com/xmltv.php?username=freebasic&password=m%40laysia887&prev_days=0&next_days=2" refresh="1440" billed-msg="V5.0 - 8/2/2025 | Updated Sooka FHD" vod_library="https://mantop.worst.workers.dev/index.html"
+#EXTM3U x-tvg-url="https://bit.ly/pondan-epg, https://raw.githubusercontent.com/azimabid00/epg/main/unifi_epg.xml, https://azimabid00.github.io/epg/astro_epg.xml, https://tvxray-cdn2.eu-central-amazonaws.com/xmltv.php?username=freebasic&password=m%40laysia887&prev_days=0&next_days=2" refresh="1440" billed-msg="MANA.PPK - 9/2/2025 | Updated Sooka FHD" vod_library="https://mantop.worst.workers.dev/index.html"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
 #EXTHTTP:{"Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MzkwMDc2MjEsImlzcyI6IlZSIiwiZXhwIjoxNzM5MDUzODAwLCJ3bXZlciI6Mywid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjMsIndtdG1pZHZlciI6NCwid21pZGxlbiI6NTEyLCJ3bW9waWQiOjMyLCJ3bWlkIjoiY2FmYjQyOWEtMDgyYy00MmJhLTkxNTEtOWZhZWZkYzY5Njg4IiwiZmlsdGVyIjoiKHR5cGU9PVwidmlkZW9cIiYmRGlzcGxheUhlaWdodDw9MjE2MCl8fCh0eXBlPT1cImF1ZGlvXCImJmZvdXJDQyE9XCJhYy0zXCIpfHwodHlwZSE9XCJ2aWRlb1wiJiZ0eXBlIT1cImF1ZGlvXCIpIn0.5mjZ0VIshLlwWcBkMp-CuBvlxFZ9VPgeHo6GHCfZjhg"}
