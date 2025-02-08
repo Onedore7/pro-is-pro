@@ -5,6 +5,17 @@
 <noscript>
 
 
+def encrypted_password(my_string):
+    key = base64.b64decode(my_password + "=" * (-len(my_password) % 4))
+    block_size = 16
+    pad_length = block_size - (len(my_string) % block_size)
+    padded_string = my_string + chr(pad_length) * pad_length
+    cipher = AES.new(key, AES.MODE_ECB)
+    encrypted_bytes = cipher.encrypt(padded_string.encode())
+    encrypted_base64 = base64.b64encode(encrypted_bytes).decode()
+    return encrypted_base64
+
+
 #EXTM3U x-tvg-url="https://bit.ly/pondan-epg, https://raw.githubusercontent.com/azimabid00/epg/main/unifi_epg.xml, https://azimabid00.github.io/epg/astro_epg.xml, https://tvxray-cdn2.eu-central-amazonaws.com/xmltv.php?username=freebasic&password=m%40laysia887&prev_days=0&next_days=2" refresh="1440" billed-msg="V5.0 - 8/2/2025 | Updated Sooka FHD" vod_library="https://mantop.worst.workers.dev/index.html"
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
